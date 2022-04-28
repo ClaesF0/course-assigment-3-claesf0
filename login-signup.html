@@ -28,14 +28,14 @@
       h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
       h._hjSettings={hjid:2878965,hjsv:6};
       a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
+      r=o.createElement('script');r.  =1;
       r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
       a.appendChild(r);
   })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
-<script src="script-account.js"></script>
+  <script src="script-account.js" defer></script>
 <script src="script-login.js" defer></script>
-<script src="cart.js" async></script>
+<script src="cart.js"   ></script>
   </head>
   <header>
     <div class="inner_header">
@@ -101,7 +101,7 @@
           right: 33%; position: absolute; width: fit-content;">
           <h3>LOG OUT</h3></button></a>
               <br><br>
-              <p>Log out function works, but I could not spend any more time trying to remember how to innerHTML it back</p>
+              <p>Log out function works, but I could not spend any more time trying to remember how to innerHTML it back thus doble log in links in nav </p>
               <p>Upon successful validation check out <a href="success.html" style="color: blue;">success.html</a> 
                 where it will use data from local storage but I cant figure out redirect only after successful valdation</p><br>
               
@@ -157,9 +157,11 @@
           <small>Error message</small>
           <a href="https://youtu.be/RfiQYRn7fBg?t=10"><button>Forgot Password?</button></a>
         </div>
-      -->
-      </form>
+     
+      </form> 
+    -->
     </div>
+    
     <div class="form-header">
       <h2>Create Account</h2>
     </div>
@@ -204,10 +206,11 @@
           <br />
           <small>Error message</small>
         </div>
-        <a href="success.html"><button onclick="login();">Submit</button></a>
+       <button onclick="login();">Submit</button></a>
+        
       </form>
       </div>
-    <script src="./script-account.js"></script>
+    
   </body>  
   <footer>
     <a href="index.html">
