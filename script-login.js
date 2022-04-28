@@ -1,6 +1,4 @@
 
-console.log("Login script linked");
-
 document.getElementById("loginfield").innerHTML =
   localStorage.getItem("usernamevalue");
 
