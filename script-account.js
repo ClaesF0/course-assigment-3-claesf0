@@ -1,5 +1,3 @@
-console.log("Account-script initializing")
-
 const form = document.getElementById('form');
 const username = document.getElementById('username');
 const email = document.getElementById('email');
@@ -72,14 +70,11 @@ function isEmail(email){
 
 }
 
-
   function login(){
     var uname = document.getElementById("username").value;
     localStorage.setItem("usernamevalue", uname);
     return false;
   }
-
-  
 
   document.getElementById("logoutbutton").addEventListener("click", logOut);
                 //eventlistener -> if localstorage !empty, then clear

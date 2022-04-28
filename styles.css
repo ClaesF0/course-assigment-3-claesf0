@@ -34,10 +34,6 @@ body {
   height: 100%;
 }
 
-/*p {
-  max-width: 50ch;
-}*/
-
 :root {
   --brand-purple: #1b203d;
   --brand-white: #fff;
@@ -72,54 +68,17 @@ body {
 }
 
 .col {
-  /*flex: 20%;
-  /*padding: 5px;*/
-  /*flex-basis: 100%;*/
-  /*border: 1px solid chartreuse;*/
-  /*justify-content: space-evenly;*/
   text-align: center;
 }
 .col img {
   border-radius: 10%;
 }
-/*
-.col img:after {
-  background: rgba(0, 0, 0, 0.6);
-  opacity: 1;
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  
-}
-.col img:hover:after {
-  opacity: 0;
-}
-*/
+
 .subsections {
   display: flex;
-  /*max-width: 1180px;*/
   margin: 10px auto;
   text-justify: center;
-} /*
-.col2 img {
-  border-radius: 10%;
-  border: 3px solid red;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  text-justify: left;
 }
-
-@media (max-width: 1080px) {
-  .col2 {
-    border: 3px solid red;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    text-justify: left;
-  }
-}*/
 
 .col2 {
   display: inline-block;
@@ -160,7 +119,6 @@ body {
 /*product css*/
 
 .product-container {
-  /*border: 1px solid hotpink;*/
   display: flex;
   text-justify: auto;
   text-align: center;
@@ -187,7 +145,6 @@ body {
   justify-content: right;
   text-align: left;
   max-width: 40%;
-  /*border: red solid 10px;*/
   margin-left: 10px;
   display: inline-block;
 }
@@ -210,7 +167,6 @@ h2 {
 .buttoncontainer {
   height: 10px;
   width: 20px;
-  /*border: 3px solid red;*/
 }
 
 @media (max-width: 810px) {
@@ -319,7 +275,6 @@ footer {
   width: 50px;
 }
 
-
 .inner_header {
   max-width: 1180px;
   margin: 0 auto;
@@ -327,15 +282,6 @@ footer {
   height: 160px;
   /*border: 1px solid chartreuse;*/
 }
-
-/*.shortfooter {
-  bottom: 0;
-  text-align: center;
-  height: 125px;
-  /*border: violet 1px solid;*/
-/* display: block;
-  width: 100%;
-}*/
 
 nav {
   background: var(--brand-light-gray);
@@ -360,7 +306,6 @@ nav {
 }
 
 .topcontainer {
-  /*border: 1px solid hotpink;*/
   display: flex;
   text-align: center;
   width: auto;
@@ -420,7 +365,6 @@ a:hover {
 .searchbar {
   display: flex;
   justify-content: space-around;
-  /*border: 1px solid red;*/
   align-items: center;
   background: white;
   border-radius: 20px;
@@ -454,10 +398,6 @@ a:hover {
   justify-content: space-evenly;
   text-align: center;
   min-width: 50px;
-}
-
-.image1 {
-  /*border: 1px solid chartreuse;*/
 }
 
 .image2 {
@@ -499,8 +439,6 @@ a:hover {
   }
 }
 
-/*START CSS ALL GAMES START*/
-
 #grid div {
   display: inline-block;
   justify-content: space-evenly;
@@ -519,10 +457,6 @@ a:hover {
   }
 }
 
-/*.gamepic {
-  width: 100%;
-}*/
-
 *.icon {
   width: 12px;
   margin: 0 auto;
@@ -531,10 +465,8 @@ a:hover {
 
 .grid-item {
   height: fit-content;
-  /*margin: 0.5em 0.5em;*/
   text-align: center;
   display: flex;
-  /*max-width: fit-content;*/
 }
 
 .picbox,
@@ -553,12 +485,6 @@ a:hover {
   width: fit-content;
   text-align: center;
 }
-
-/*.buttonbox {
-  margin: 0 auto;
-  display: block;
-border: 2px solid red;
-}*/
 
 .button-sml {
   cursor: pointer;
@@ -586,47 +512,11 @@ border: 2px solid red;
   display: inline-block;
   align-self: center;
 }
-/*
-@media (max-width: 767px) {
-  p {
-    text-align: left;
-  }
-
-  #grid div {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  .gamepic {
-    width: 220px;
-  }
-
-  *.icon {
-    width: 12px;
-  }
-
-  .grid-item {
-    display: flex;
-    justify-content: center;
-    max-width: 220px;
-    margin: 1.5em 1.5em;
-  }
-}*/
-
-/*@media (max-width: 767px) {
-  #grid div {
-    align-items: center;
-    border: 1px solid chartreuse;
-  }
-}*/
-
 /*END CSS ALL GAMES END*/
 
 @media (max-width: 1080px) {
   label.logo {
     font-size: 30px;
-
-    /*border: 1px solid gold;*/
   }
 
   nav ul li a {
@@ -647,9 +537,7 @@ border: 2px solid red;
   ul {
     position: absolute;
     width: 100%;
-    /*height: 100vh;*/
     background: var(--brand-light-gray);
-    /*top: 140px;*/
     left: -100%;
     text-align: center;
     transition: all 0.5s;
@@ -674,18 +562,14 @@ border: 2px solid red;
   }
 }
 
-
 footer {
   text-align: center;
-  border: 3px solid red;
   height: 160px;
   display: block;
   width: 100%;
   margin-top: 250px;
   bottom: 0;
 }
-
-
 
     .corporate-container {
       display: flex;
@@ -698,11 +582,6 @@ footer {
       margin: 8px auto;
     }
 
-    /*.form {
-      padding: 30px 40px;
-      border: 2px solid red;
-    }*/
-
     .form-header {
       text-align: center;
     }
@@ -713,13 +592,11 @@ footer {
 
     .form-control {
       margin-bottom: 10px;
-      /*padding-bottom: 10px;*/
       position: relative;
       text-align: center;
     }
 
     .form-control label {
-      /* display: inline-block;*/
       margin-bottom: 5px;
     }
 
@@ -774,4 +651,3 @@ footer {
   padding: 16px;
   margin: 8px;
  }
-
