@@ -12,12 +12,12 @@ to a fully dynamic site fetching content from a third party (WordPress) pluging 
 
 Tools used:
 
--Figma
--HTML
--CSS
--JavaScript
--Word-Press
--Woo-Commerce
+Figma,
+HTML,
+CSS,
+JavaScript,
+Word-Press,
+Woo-Commerce
 
 Clone the repo:
 git clone git@github.com:ClaesF0/course-assigment-3-claesf0.git
